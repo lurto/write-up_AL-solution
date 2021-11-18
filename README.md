@@ -28,7 +28,7 @@ What other port should you check out ?
 80
 ```
 
-## SMB
+## Exploiting SMB
 
 Which smb share is the most exploitable ?
 
@@ -50,14 +50,14 @@ Erwan
 ```
 **In the note**
 
-## WordPress
+## Exploiting WordPress
 
 What is the wordpress login password ?
 
 ```
 liverpool
 ```
-**bruteforce wordpress with rockyou.txt and the Erwann user**
+**bruteforce wordpress with rockyou.txt and the erwan user**
 
 What file extension will you use for a reverse shell ?
 
