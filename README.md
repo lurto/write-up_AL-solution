@@ -46,7 +46,7 @@ X
 Who has a vulnerable password ? 
 
 ```
-Erwann
+Erwan
 ```
 **In the note**
 
