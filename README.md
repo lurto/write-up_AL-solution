@@ -59,6 +59,8 @@ liverpool
 ```
 **bruteforce wordpress with rockyou.txt and the erwan user**
 
+## Getting a reverse shell
+
 What file extension will you use for a reverse shell ?
 
 ```
