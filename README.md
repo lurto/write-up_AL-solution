@@ -33,7 +33,7 @@ What other port should you check out ?
 Which smb share is the most exploitable ?
 
 ```
-Public
+PublicShare
 ```
 
 What is the flag ?
