@@ -61,12 +61,8 @@ liverpool
 ## Getting a reverse shell
 
 In order to gain acces on the machines we need to execute code on the machine. Lucky us, we can edit files in the wordpress. You need to change the php code on one of the files and call this page to execute the reverse shell
+
 ![image](https://user-images.githubusercontent.com/90036439/142603796-67e404fb-5b53-436c-84f7-23fb5ffd77f7.png)
-
-
-
-
-
 
 What file extension will you use for a reverse shell ?
 
@@ -83,26 +79,24 @@ www-data
 
 ## Privilege Escalation
 
-Where is a misconfiguration that can you use for Privilege Escalation
+Using the ``` cat ``` command, it will show us the content of the crontab file, we can see it run in admnin mode the script ``` backup.sh ```.
+
+![image](https://user-images.githubusercontent.com/90036439/142604886-a92c0077-7906-4e5e-a4a3-43720c80d80e.png)
+
+
+What is the path of the crontab ?
 
 ```
-crontab
+/etc/crontab
 ```
 **the crontab executes with root a writable file**
 
-What is the flag ?
+What is the command that the crontab execute every 5 minutes ?
 
 ```
-X
+sudo /home/backup.sh
 ```
 
-## Root
-
-What is the root flag ?
-
-```
-X
-```
 ## Authors
 
 - [@Burly](https://github.com/Burly0)
