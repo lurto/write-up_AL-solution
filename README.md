@@ -3,7 +3,7 @@
 
 Write-Up for the AL-Solution TryHackMe room **(not uploaded)**
 
-[AL-Solution room](https://github.com/lurto) 
+[AL-Solution room](https://tryhackme.com) 
 
 
 
